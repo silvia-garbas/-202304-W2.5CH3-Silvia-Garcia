@@ -1,21 +1,22 @@
 {
-  "name": "challenge-3",
+  "name": "202304-w2.5ch3-juan-garcia",
   "version": "1.0.0",
   "description": "The variables start and end are given. Return an array with the contents of the individual numbers. Replace all numbers divisible by three with \"Fizz\" and all numbers divisible by five with \"Buzz\". If a number is divisible by five and three replace it by \"FizzBuzz\".",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest --collect-coverage",
-    "prepare": "husky install",
     "build": "tsc --watch",
-    "test:prod": "jest --watchAll --coverage --watchAll=false"
-   
+    "test": "jest --watchAll --coverage",
+    "test:prod": "jest --watchAll --coverage --watchAll=false",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.21.5",
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
     "@types/jest": "^29.5.1",
     "@types/node": "^20.1.2",
     "@typescript-eslint/eslint-plugin": "^5.59.5",
