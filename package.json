@@ -8,7 +8,8 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "prepare": "husky install",
-    "build": "tsc --watch"
+    "build": "tsc --watch",
+    "test:prod": "jest --watchAll --coverage --watchAll=false"
   },
   "keywords": [],
   "author": "",
