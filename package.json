@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "The variables start and end are given. Return an array with the contents of the individual numbers. Replace all numbers divisible by three with \"Fizz\" and all numbers divisible by five with \"Buzz\". If a number is divisible by five and three replace it by \"FizzBuzz\".",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "type": "module",
-    "test": "jest",
-    "test:watch": "jest --watchAll",
+    "test": "jest --watchAll --coverage",
     "prepare": "husky install",
     "build": "tsc --watch",
     "test:prod": "jest --watchAll --coverage --watchAll=false"
