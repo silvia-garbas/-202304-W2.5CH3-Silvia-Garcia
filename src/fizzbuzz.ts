@@ -1,4 +1,4 @@
-export const fizzBuzz = (initialNumber: number, finalNumber: number) => {
+export const fizzBuzz = (initialNumber: number, finalNumber: number):(number | string)[] => {
   const newArrayNumbers = [];
   for (let index = initialNumber; index <= finalNumber; index++) {
     newArrayNumbers.push(index);
